@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+    <div id="centerMe">
+        <form name="rechner">
+            <div id="forFun">
+                <div id="brand">
+               <img src = "https://i.pinimg.com/originals/c4/da/2a/c4da2a8e25f0d7c536b617bd2942bb2b.jpg" width="50px" height="50px">
+                </div>
+                <div id="claim"></div>
+            </div>
+            <input id="display" type="text" value="" readonly>
+            <input class="btn" type="button" value="7"><input class="btn" type="button" value="8"><input class="btn" type="button" value="9"><input class="btn" type="button" value="+" name="plus">
+            <input class="btn" type="button" value="4"><input class="btn" type="button" value="5"><input class="btn" type="button" value="6"><input class="btn" type="button" value="-" name="minus">
+            <input class="btn" type="button" value="1"><input class="btn" type="button" value="2"><input class="btn" type="button" value="3"><input class="btn" type="button" value="*" name="mal"><input class="btn" type="button" value="0"><input class="btn" type="button"
+                value="."><input type="button" value="C" id="reset"><input type="button" value="=" name="berechnen" onclick="cutOffLeftOverSigns()"><input class="btn" type="button" value="/" name="durch">
+        </form>
+    </div>
+    <script src="calculator.js"></script>
+</body>
+</html>
